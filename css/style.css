@@ -1,0 +1,88 @@
+/* codice css del progetto natural intero */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/sfondo.png");
+}
+
+#container {
+  margin: auto;
+  width: 50vw;
+}
+
+/* immagini dell'header */
+
+.img_forest {
+  text-align: center;
+  position: relative;
+}
+
+#alberi {
+  border: 5px solid white;
+  width: 50vw;
+  height: 25vw;
+  margin-top: 20px;
+}
+
+.l_white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: 50%;
+}
+
+/* end immagini dell'header */
+
+/* elementi navbar */
+
+.navbar {
+  background-color: rgb(81, 60, 75);
+  width: 50vw;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+ }
+
+/* end elementi navbar */
+
+/* elementi flottanti */
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+.col_left, .col_right {
+  width: 12vw;
+  background: red;
+}
+
+.col_center {
+  width: 24vw;
+  background: gray;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+  background: blue;
+}
